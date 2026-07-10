@@ -296,3 +296,37 @@ HERO
     flex-wrap:wrap;
 
 }
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:768px){
+
+    .navbar{
+        display:none;
+    }
+
+    .btn{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:48px;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .btn-outline{
+        margin-left:0;
+    }
+
+}
